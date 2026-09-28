@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALAXY BUSINESS HUB</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+  <h1 id="mainTitle">Welcome</h1>
+  <p id="description">We offer quality services</p>
+  <a id="contactLink" href="/contact">Contact Us</a>
+  <button id="mainBtn" class="button disabled">Get Started</button>
+  <button id = "removeBtn">Remove Last</button>
+  <ul id="serviceList">
+    <li class="service">Web Design</li>
+    <li class="service">SEO</li>
+    <li class="service">Hosting</li>
+  </ul>
+  <form id="contactForm" novalidate>
+    <h2>Contact us</h2>
+    <input type="text" id="nameInput" placeholder="Your Name">
+    <input type="email" id="emailInput" placeholder="Your Email">
+    <select id="serviceSelect">
+      <option value="">Select Service</option>
+      <option value="web designing">Web Designing</option>
+      <option value="seo">SEO</option>
+      <option value="hosting">Hosting</option>
+    </select>
+    <textarea  id="messageInput" placeholder="your message here"></textarea>
+    <button type="submit">Send Message</button>
+    <p id="feedback"></p>
+
+  </form>
+  <script src="app.js"></script>
+  <script src="phase3.js"></script>
+</body>
+</html>
+    
